@@ -12,9 +12,9 @@ export default props => {
       <div>
         <Route exact path="/" component={Home}></Route>
         <Route path="/" component={SocialBar}></Route>
-        <Route path="/about" component={AboutMe}></Route>
+        {/* <Route path="/about" component={AboutMe}></Route>
         <Route path="/projects" component={Projects}></Route>
-        <Route path="/education" component={Education}></Route>
+        <Route path="/education" component={Education}></Route> */}
       </div>
     </Router>
   )

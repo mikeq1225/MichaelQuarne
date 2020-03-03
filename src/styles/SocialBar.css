@@ -13,11 +13,12 @@
   font-size: 50px;
   padding: 5px;
   color: white;
+  transition: width 0.6s;
 }
 
 .social svg:hover {
-  width: 75px;
-  transition: width 0.7s;
+  width: 95px;
+  transition-timing-function: ease;
 }
 
 .social a:nth-child(1) svg {
