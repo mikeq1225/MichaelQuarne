@@ -12,18 +12,12 @@ export default props => {
         opportunitites to show off my skills and learn new ones.
       </h3>
 
-      <img src="http://placehold.it/300" alt="Headshot of Mike Quarne"></img>
+      <img src="http://placehold.it/400" alt="Headshot of Mike Quarne"></img>
       <p>
         Head over to my portfolio to see some of the projects I did while I was
         in school.
       </p>
       {/* <button>View My Work</button> */}
-      <div className="navMenu">
-        <button>About Me</button>
-        <button>Portfolio</button>
-        <button>Education</button>
-        <button>Resume</button>
-      </div>
     </div>
   )
 }

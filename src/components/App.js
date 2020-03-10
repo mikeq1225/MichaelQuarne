@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe"
 import Projects from "./Projects"
 import Education from "./Education"
 import SocialBar from "./SocialBar"
+import NavBar from "./NavBar"
 
 export default props => {
   return (
@@ -12,9 +13,10 @@ export default props => {
       <div>
         <Route exact path="/" component={Home}></Route>
         <Route path="/" component={SocialBar}></Route>
-        {/* <Route path="/about" component={AboutMe}></Route>
-        <Route path="/projects" component={Projects}></Route>
-        <Route path="/education" component={Education}></Route> */}
+        <Route path="/" component={NavBar}></Route>
+        <Route path="/mikeQuarne" component={AboutMe}></Route>
+        {/* <Route path="/projects" component={Projects}></Route> */}
+        {/* <Route path="/education" component={Education}></Route> */}
       </div>
     </Router>
   )
