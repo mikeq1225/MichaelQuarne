@@ -1,0 +1,23 @@
+.aboutMeContainer {
+  text-align: center;
+}
+
+.aboutMe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 11%;
+}
+
+.homeButton {
+  position: absolute;
+  bottom: 0;
+  left: 46%;
+  font-size: 2em;
+  border: none;
+  cursor: pointer;
+  color: blue;
+}
+
+.homeButton:hover {
+  background-color: lightgrey;
+}

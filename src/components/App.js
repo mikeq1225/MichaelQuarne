@@ -11,10 +11,10 @@ export default props => {
   return (
     <Router>
       <div>
-        <Route exact path="/" component={Home}></Route>
-        <Route path="/" component={SocialBar}></Route>
-        <Route path="/" component={NavBar}></Route>
-        <Route path="/mikeQuarne" component={AboutMe}></Route>
+        <Route exact path="/Portfolio-Mike-Quarne" component={Home}></Route>
+        <Route path="/Portfolio-Mike-Quarne" component={SocialBar}></Route>
+        <Route path="/Portfolio-Mike-Quarne" component={NavBar}></Route>
+        <Route path="/Portfolio-Mike-Quarne/About" component={AboutMe}></Route>
         {/* <Route path="/projects" component={Projects}></Route> */}
         {/* <Route path="/education" component={Education}></Route> */}
       </div>

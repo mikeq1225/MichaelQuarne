@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default props => {
   return (
     <div className="navMenu">
-      <Link to={"/mikeQuarne"}>
+      <Link to={"/Portfolio-Mike-Quarne/About"}>
         <button>About Me</button>
       </Link>
       <button>Portfolio</button>
