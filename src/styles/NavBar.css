@@ -1,0 +1,37 @@
+.navMenu {
+  position: absolute;
+  right: 0;
+  top: 290px;
+}
+
+.navMenu button {
+  color: white;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  margin: 9px;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+.homeButton {
+  position: absolute;
+  bottom: 0;
+  left: 660px;
+  font-size: 2em;
+  border: none;
+  cursor: pointer;
+  color: blue;
+}
+
+.homeButton:hover {
+  background-color: lightgrey;
+}
