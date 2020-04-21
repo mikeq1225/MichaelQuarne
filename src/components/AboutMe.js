@@ -16,6 +16,7 @@ export default props => {
           Head over to my portfolio to see some of the projects I did while I
           was in school.
         </p>
+        {/* Insert youTube video of my video resume */}
       </div>
       <div className="aboutMe">
         <div>
