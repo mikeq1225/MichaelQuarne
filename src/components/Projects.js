@@ -38,10 +38,10 @@ export default props => {
         <div>
          <img src="http://placehold.it/50" alt="Project picture"/>
          <div>
-          <p>Title: Ska8er-Site</p>
-          <p>Description: </p>
-          <p>Problems:</p>
-          <p>Lessons:</p>
+          <p>Title: react-shopping-cart</p>
+          <p>Description: Our first steps in React.  We had to recreate a T-shirt website with the ability to add and delete in a cart as well as simulating a checkout/receipt screen. </p>
+          <p>Problems:  How to use React and Redux to control the different states of items in the cart. </p>
+          <p>Lessons:  I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user.  Also learned how to use Redux to monitor the state of items in the cart and some CSS properties. </p>
          </div>
         </div>
         <div>
@@ -56,9 +56,9 @@ export default props => {
         <div>
          <img src="http://placehold.it/50" alt="Project picture"/>
          <div>
-          <p>Title: Ska8er-Site</p>
-          <p>Description: </p>
-          <p>Problems:</p>
+          <p>Title: Jurn(ease)</p>
+          <p>Description: A group travel planning app that encompasses everything I learned at PunchCode.</p>
+          <p>Problems:  How to take an idea from conception to a finished application.</p>
           <p>Lessons:</p>
          </div>
         </div>
