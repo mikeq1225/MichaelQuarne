@@ -15,8 +15,8 @@ export default props => {
         <Route path="/Portfolio-Mike-Quarne" component={SocialBar}></Route>
         <Route path="/Portfolio-Mike-Quarne" component={NavBar}></Route>
         <Route path="/Portfolio-Mike-Quarne/About" component={AboutMe}></Route>
-        {/* <Route path="/projects" component={Projects}></Route> */}
-        {/* <Route path="/education" component={Education}></Route> */}
+        <Route path="/Portfolio-Mike-Quarne/Projects" component={Projects}></Route>
+        <Route path="/Portfolio-Mike-Quarne/Education" component={Education}></Route>
       </div>
     </Router>
   )

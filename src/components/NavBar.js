@@ -8,9 +8,15 @@ export default props => {
       <Link to={"/Portfolio-Mike-Quarne/About"}>
         <button>About Me</button>
       </Link>
-      <button>Portfolio</button>
-      <button>Education</button>
-      <button>Resume</button>
+      <Link to={"/Portfolio-Mike-Quarne/Projects"}>
+        <button>Projects</button>
+      </Link>
+      <Link to={"/Portfolio-Mike-Quarne/Education"}>
+        <button>Education</button>
+      </Link>
+      <Link to={"/Portfolio-Mike-Quarne/Portfolio"}>
+        <button>Resume</button>
+      </Link>
     </div>
   )
 }

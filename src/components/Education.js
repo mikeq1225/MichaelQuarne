@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/Education.scss"
 import { Link } from "react-router-dom"
+import "../styles/Education.scss"
 
 export default props => {
   return (
