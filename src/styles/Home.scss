@@ -1,0 +1,15 @@
+.homeContainer {
+	background-image: url(/assets/red-rock-4159077_1920.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	padding: 20px 0px;
+	height: 100vh;
+
+	img {
+		border-radius: 50%;
+	}
+}

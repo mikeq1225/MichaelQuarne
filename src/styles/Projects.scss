@@ -1,22 +1,25 @@
 .projectsContainer {
-  
-  .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+	h1 {
+		text-align: center;
+	}
 
-    h3 {
-      text-align: center;
-    }
+	.projects {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 0px 150px;
 
-    div {
-      width: 200px;
-      display: grid;
-      grid-template-columns: 60px 1fr;
+		h3 {
+			text-align: center;
+		}
 
-      div {
-        display: flex;
-        flex-direction: column;
-      }
-    }
-  }
+		div {
+			display: grid;
+			grid-template-columns: 100px 1fr;
+
+			div {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
 }

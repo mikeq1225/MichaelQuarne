@@ -1,0 +1,27 @@
+.navMenu {
+	position: absolute;
+	right: 0;
+	top: 290px;
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		color: black;
+		outline: none;
+		width: 150px;
+		height: 50px;
+		font-size: 1.2em;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		cursor: pointer;
+		margin: 9px 0px;
+		border: 1px solid rgb(71, 56, 67);
+	}
+
+	button:hover {
+		background-color: lightgrey;
+	}
+}
