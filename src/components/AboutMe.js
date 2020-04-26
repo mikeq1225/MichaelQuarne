@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export default (props) => {
 	return (
-		<div className="aboutMeContainer">
+		<div className="container aboutMe">
 			<div>
 				<h3>
 					I'm a new full-stack software engineer from Las Vegas. I recently
@@ -18,7 +18,7 @@ export default (props) => {
 				</p>
 				{/* Insert youTube video of my video resume */}
 			</div>
-			<div className="aboutMe">
+			<div className="infoAboutMe">
 				<div>
 					<h3>Family</h3>
 					<img src="http://placehold.it/200" alt="Family of Mike Quarne"></img>

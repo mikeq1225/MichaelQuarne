@@ -5,9 +5,9 @@ import "../styles/Projects.scss"
 
 export default (props) => {
 	return (
-		<div className="projectsContainer">
+		<div className="container projects">
 			<h1>Projects</h1>
-			<div className="projects">
+			<div className="project">
 				<div>
 					<img src="http://placehold.it/50" alt="Ska8er-Site replica" />
 					<div>
