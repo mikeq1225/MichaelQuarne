@@ -1,19 +1,82 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"projects": [
+		{
+			"id": 1,
+			"title": "Ska8er-Site",
+			"description": "Our first project in class. We were given an image of a website and we had to recreate the site. It was meant to teach us principles of HTML and CSS.",
+			"problem": "Trying to figure out how to position things in the correct space and order.",
+			"lessons": "I learned how to use CSS Grid and Flexbox quite well. Also learned how to use pseudo elements.",
+			"tech": "HTML, CSS",
+			"imgs": {
+				"normal": "",
+				"thumb": ""
+			},
+			"link": ""
+		},
+		{
+			"id": 2,
+			"title": "Create-Etsy-Search-Page",
+			"description": "Given a mock-up of an Etsy page, we had to recreate the page. We were also given a JSON file with dummy data to be used for the search.",
+			"problem": "How to dynamically import the data without typing all of it out.",
+			"lessons": "This was our first step into JavaScript. I also learned how to use jQuery to create a template to map through and display the data.",
+			"tech": "HTML, CSS, JavaScript, jQuery",
+			"imgs": {
+				"normal": "",
+				"thumb": ""
+			},
+			"link": ""
+		},
+		{
+			"id": 3,
+			"title": "Group-Project",
+			"description": "A group assingment where we utilized Github for version control and collaboration to make a website for a fictional restaurant. We were given a JSON file with menu items.",
+			"problem": "How do we work on the same project without causing problems and still creating a cohesive looking website.",
+			"lessons": "I learned how to use Github's branches to ensure my team could work on the same website but in different sections to avoid conflicts.",
+			"tech": "HTML, CSS, JavaScript, jQuery, GitHub",
+			"imgs": {
+				"normal": "",
+				"thumb": ""
+			},
+			"link": ""
+		},
+		{
+			"id": 4,
+			"title": "React-Shopping-Cart",
+			"description": "Our first steps in React. We had to recreate a T-shirt website with the ability to add and delete in a cart as well as simulating a checkout/receipt screen.",
+			"problem": "How to use React and Redux to control the state of items in the cart.",
+			"lessons": "I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user. I also learned how to use Redux to monitor the state of items in the cart as well as some new CSS properties.",
+			"tech": "HTML, CSS, JavaScript, React, Redux",
+			"imgs": {
+				"normal": "",
+				"thumb": ""
+			},
+			"link": ""
+		},
+		{
+			"id": 5,
+			"title": "Ryan_List",
+			"description": "We were tasked with making a replica CraigsList website where users could search and add postings using React components and a MySQL database.",
+			"problem": "Using React and Redux to keep track of several different pieces of state on differenet components while integrating a MySQL database.",
+			"lessons": "I learned how to construct useful and concise MySQL queries to retrieve date from and add data to the database.",
+			"tech": "HTML, CSS, JavaScript, React, Redux, MySQL",
+			"imgs": {
+				"normal": "",
+				"thumb": ""
+			},
+			"link": ""
+		},
+		{
+			"id": 6,
+			"title": "Jurn(ease)",
+			"description": "A group travel planning app that encompasses everything I learned at PunchCode.",
+			"problem": "How do you take an idea from conception to a finished application.",
+			"lessons": "I learned how to plan and execute a large project, how to take all the languages and tools from class and apply them to one big, how to use AWS as a remote MySQL database for our project, and I learned how to accomplish all of this while working remotely.",
+			"tech": "HTML, CSS, JavaScript, React, REdux, Node.js, Express, MySQL, AWS",
+			"imgs": {
+				"normal": "",
+				"thumb": ""
+			},
+			"link": ""
+		}
+	]
 }
