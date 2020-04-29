@@ -14,10 +14,20 @@ export default (props) => {
 	return (
 		<div className="container">
 			<div className="project">
-				<h1>{project.title}</h1>
 				<Link to={"/Portfolio-Mike-Quarne/Projects"}>
 					<div className="project1">
-						<p>Hello</p>
+						<img src={project.image} alt={project.title + " replica"} />
+						<div>
+							<h1>{project.title}</h1>
+							<p>Description</p>
+							<h2>{project.description}</h2>
+							<p>Issues Faced</p>
+							<h2>{project.problem}</h2>
+							<p>Lessons Learned</p>
+							<h2>{project.lessons}</h2>
+							<p>Languages/Technologies Used</p>
+							<h2>{project.tech}</h2>
+						</div>
 					</div>
 				</Link>
 				<Link to={"/Portfolio-Mike-Quarne"}>
