@@ -7,23 +7,17 @@
 			"problem": "Trying to figure out how to position things in the correct space and order.",
 			"lessons": "I learned how to use CSS Grid and Flexbox quite well. Also learned how to use pseudo elements.",
 			"tech": "HTML, CSS",
-			"imgs": {
-				"normal": "",
-				"thumb": ""
-			},
+			"image": "/assets/Ska8er_Site.png",
 			"link": ""
 		},
 		{
 			"id": 2,
 			"title": "Create-Etsy-Search-Page",
-			"description": "Given a mock-up of an Etsy page, we had to recreate the page. We were also given a JSON file with dummy data to be used for the search.",
+			"description": "Given a mock-up of an Etsy page, we had to recreate the page. We were also given a file with dummy data to be used for the search.",
 			"problem": "How to dynamically import the data without typing all of it out.",
 			"lessons": "This was our first step into JavaScript. I also learned how to use jQuery to create a template to map through and display the data.",
 			"tech": "HTML, CSS, JavaScript, jQuery",
-			"imgs": {
-				"normal": "",
-				"thumb": ""
-			},
+			"image": "/assets/RecreateEtsy.png",
 			"link": ""
 		},
 		{
@@ -33,10 +27,7 @@
 			"problem": "How do we work on the same project without causing problems and still creating a cohesive looking website.",
 			"lessons": "I learned how to use Github's branches to ensure my team could work on the same website but in different sections to avoid conflicts.",
 			"tech": "HTML, CSS, JavaScript, jQuery, GitHub",
-			"imgs": {
-				"normal": "",
-				"thumb": ""
-			},
+			"image": "/assets/GroupProject.png",
 			"link": ""
 		},
 		{
@@ -46,10 +37,7 @@
 			"problem": "How to use React and Redux to control the state of items in the cart.",
 			"lessons": "I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user. I also learned how to use Redux to monitor the state of items in the cart as well as some new CSS properties.",
 			"tech": "HTML, CSS, JavaScript, React, Redux",
-			"imgs": {
-				"normal": "",
-				"thumb": ""
-			},
+			"image": "/assets/ReactShoppingCart.png",
 			"link": ""
 		},
 		{
@@ -59,10 +47,7 @@
 			"problem": "Using React and Redux to keep track of several different pieces of state on differenet components while integrating a MySQL database.",
 			"lessons": "I learned how to construct useful and concise MySQL queries to retrieve date from and add data to the database.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, MySQL",
-			"imgs": {
-				"normal": "",
-				"thumb": ""
-			},
+			"image": "/assets/Ska8er_Site.png",
 			"link": ""
 		},
 		{
@@ -72,10 +57,7 @@
 			"problem": "How do you take an idea from conception to a finished application.",
 			"lessons": "I learned how to plan and execute a large project, how to take all the languages and tools from class and apply them to one big, how to use AWS as a remote MySQL database for our project, and I learned how to accomplish all of this while working remotely.",
 			"tech": "HTML, CSS, JavaScript, React, REdux, Node.js, Express, MySQL, AWS",
-			"imgs": {
-				"normal": "",
-				"thumb": ""
-			},
+			"image": "/assets/Ska8er_Site.png",
 			"link": ""
 		}
 	]

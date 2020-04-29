@@ -3,9 +3,11 @@ import "../styles/Home.scss"
 
 export default (props) => {
 	return (
-		<div className="container home">
-			<h1>Mike Quarne</h1>
-			<img src="http://placehold.it/400" alt="Headshot of Mike Quarne"></img>
+		<div className="container">
+			<div className="home">
+				<h1>Mike Quarne</h1>
+				<img src="http://placehold.it/400" alt="Headshot of Mike Quarne"></img>
+			</div>
 		</div>
 	)
 }
