@@ -15,10 +15,7 @@ export default (props) => {
 						to={"/Portfolio-Mike-Quarne/Projects/" + project.id}
 					>
 						<div className="individProject">
-							<img
-								src="http://placehold.it/200"
-								alt={project.name + "replica"}
-							/>
+							<img src={project.image} alt={project.title + " replica"} />
 							<h3>{project.title}</h3>
 						</div>
 					</Link>
