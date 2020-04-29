@@ -1,24 +1,30 @@
 html {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
+	margin: 0;
 }
 
-body {
-	margin: 0;
+body,
+#root {
+	// margin: 0;
 	font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
 		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .container {
+	background: silver;
 	// background-image: url(/assets/red-rock-4159077_1920.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	height: 100vh;
+	margin: 0;
 }
 
 .homeButton {

@@ -7,18 +7,27 @@ export default (props) => {
 	const { projects } = useProjects()
 
 	return (
-		<div className="container projects">
-			<Link to={"/Portfolio-Mike-Quarne/Projects/:id"}>
+		<div className="container">
+			<div className="projects">
 				{projects.map((project) => (
-					<div key={"project" + project.id} className="individProject">
-						<img src="http://placehold.it/200" alt={project.name + "replica"} />
-						<h3>Ska8er-Site</h3>
-					</div>
+					<Link
+						key={"project" + project.id}
+						to={"/Portfolio-Mike-Quarne/Projects/" + project.id}
+					>
+						<div className="individProject">
+							<img
+								src="http://placehold.it/200"
+								alt={project.name + "replica"}
+							/>
+							<h3>{project.title}</h3>
+						</div>
+					</Link>
 				))}
-			</Link>
-			<Link to={"/Portfolio-Mike-Quarne"}>
-				<button className="homeButton">Home</button>
-			</Link>
+
+				<Link to={"/Portfolio-Mike-Quarne"}>
+					<button className="homeButton">Home</button>
+				</Link>
+			</div>
 		</div>
 	)
 }
