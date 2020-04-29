@@ -1,10 +1,14 @@
-import React, { useState } from "react"
+import React, { useEffect } from "react"
 import { Link } from "react-router-dom"
 import { useProjects } from "../../hooks"
 import "../../styles/projects/Projects.scss"
 
 export default (props) => {
-	const { projects } = useProjects()
+	const { projects, fetchProjects } = useProjects()
+
+	useEffect(() => {
+		fetchProjects()
+	}, [props.match.params])
 
 	return (
 		<div className="container">
