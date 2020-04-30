@@ -8,7 +8,7 @@ export default (props) => {
 
 	useEffect(() => {
 		fetchProjects()
-	}, [props.match.params])
+	}, [])
 
 	return (
 		<div className="container">
