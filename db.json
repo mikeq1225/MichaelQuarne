@@ -36,7 +36,7 @@
 			"description": "Our first steps in React. We had to recreate a T-shirt website with the ability to add and delete in a cart as well as simulating a checkout/receipt screen.",
 			"problem": "How to use React and Redux to control the state of items in the cart.",
 			"lessons": "I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user. I also learned how to use Redux to monitor the state of items in the cart as well as some new CSS properties.",
-			"tech": "HTML, CSS, JavaScript, React, Redux",
+			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js",
 			"image": "/assets/ReactShoppingCart.png",
 			"link": ""
 		},
@@ -46,7 +46,7 @@
 			"description": "We were tasked with making a replica CraigsList website where users could search and add postings using React components and a MySQL database.",
 			"problem": "Using React and Redux to keep track of several different pieces of state on differenet components while integrating a MySQL database.",
 			"lessons": "I learned how to construct useful and concise MySQL queries to retrieve date from and add data to the database.",
-			"tech": "HTML, CSS, JavaScript, React, Redux, MySQL",
+			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js, Express, MySQL",
 			"image": "/assets/Ska8er_Site.png",
 			"link": ""
 		},
