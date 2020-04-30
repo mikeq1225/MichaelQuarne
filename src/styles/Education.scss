@@ -1,8 +1,13 @@
 .education {
+	padding: 100px 250px 40px 150px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 
-	h2 {
-		text-align: center;
+	div {
+		border: 1px solid black;
+
+		h1 {
+			text-align: center;
+		}
 	}
 }
