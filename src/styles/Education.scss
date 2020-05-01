@@ -15,20 +15,30 @@
 
 		p {
 			line-height: 1.4em;
+			font-size: 1.1em;
 		}
 
 		h3 {
+			color: base.$blueColor;
 			margin: 10px 0px;
 		}
 
 		div.edLogo {
 			border: none;
 			display: flex;
-			height: 70px;
+			height: 80px;
 			padding: 0;
 
-			img {
-				width: 55%;
+			a {
+				display: flex;
+				justify-content: center;
+				img {
+					width: 55%;
+				}
+			}
+
+			img.snhu {
+				width: 70%;
 				align-self: center;
 			}
 		}
@@ -38,7 +48,7 @@
 			height: 30%;
 
 			h3 {
-				color: grey;
+				color: base.$blueColor;
 				text-align: center;
 			}
 
@@ -50,7 +60,7 @@
 
 				li {
 					margin: 0.25em 0em;
-					color: base.$thirdColor;
+					color: base.$blackColor;
 				}
 			}
 		}

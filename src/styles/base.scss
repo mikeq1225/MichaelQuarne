@@ -10,19 +10,20 @@ html {
 
 body,
 #root {
-	// margin: 0;
+	margin: 0;
 	font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
 		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 $whiteColor: #ffffff;
-$firstColor: #1a16c5;
-$secondColor: #b3b3b3;
-$thirdColor: #0d0ba1;
+$blueColor: #1a16c5;
+$silverColor: #b3b3b3;
+$darkBlueColor: #0d0ba1;
 $blackColor: #04080f;
+$LgreyColor: #d3d3d3;
 
 .container {
-	background: silver;
+	background: $silverColor;
 	// background-image: url(/assets/red-rock-4159077_1920.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -38,9 +39,10 @@ $blackColor: #04080f;
 	font-size: 2em;
 	border: none;
 	cursor: pointer;
-	color: blue;
+	color: $blueColor;
+	background: $silverColor;
 }
 
-.homeButton:hover {
-	background-color: lightgrey;
-}
+// .homeButton:hover {
+// 	background-color: $whiteColor;
+// }
