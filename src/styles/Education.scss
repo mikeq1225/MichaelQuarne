@@ -1,13 +1,58 @@
+@use 'src/styles/base.scss' as base;
+
 .education {
 	padding: 100px 250px 40px 150px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-gap: 0px 2%;
 
 	div {
 		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 0px 20px;
 
-		h1 {
-			text-align: center;
+		p {
+			line-height: 1.4em;
+		}
+
+		h3 {
+			margin: 10px 0px;
+		}
+
+		div.edLogo {
+			border: none;
+			display: flex;
+			height: 70px;
+			padding: 0;
+
+			img {
+				width: 55%;
+				align-self: center;
+			}
+		}
+
+		div.edList {
+			border: none;
+			height: 30%;
+
+			h3 {
+				color: grey;
+				text-align: center;
+			}
+
+			ul {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-gap: 0% 5%;
+				padding: 0;
+
+				li {
+					margin: 0.25em 0em;
+					color: base.$thirdColor;
+				}
+			}
 		}
 	}
 }

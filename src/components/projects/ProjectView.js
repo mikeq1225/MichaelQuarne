@@ -16,7 +16,7 @@ export default (props) => {
 			setLeft(data.left)
 			setRight(data.right)
 		})
-	}, [props.match.params])
+	}, [id])
 
 	return (
 		<div className="container">

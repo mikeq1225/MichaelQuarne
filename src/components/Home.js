@@ -5,7 +5,7 @@ export default (props) => {
 	return (
 		<div className="container">
 			<div className="home">
-				<h1>Mike Quarne</h1>
+				<h1>Michael Quarne</h1>
 				<img src="http://placehold.it/400" alt="Headshot of Mike Quarne"></img>
 			</div>
 		</div>
