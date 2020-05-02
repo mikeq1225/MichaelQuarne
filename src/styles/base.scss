@@ -23,8 +23,8 @@ $blackColor: #04080f;
 $LgreyColor: #d3d3d3;
 
 .container {
-	background: $silverColor;
-	// background-image: url(/assets/red-rock-4159077_1920.jpg);
+	// background: $silverColor;
+	background-image: url(/assets/metal-316803_1280.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -40,7 +40,7 @@ $LgreyColor: #d3d3d3;
 	border: none;
 	cursor: pointer;
 	color: $blueColor;
-	background: $silverColor;
+	background: transparent;
 }
 
 // .homeButton:hover {
