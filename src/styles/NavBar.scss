@@ -21,9 +21,14 @@
 		cursor: pointer;
 		margin: 9px 0px;
 		border: 1px solid base.$blueColor;
+		background-color: base.$whiteColor;
+		transition: background-color 400ms, font-weight 400ms;
 	}
 
 	button:hover {
 		background-color: base.$LgreyColor;
+		border: 2px solid base.$blueColor;
+		transition: background-color 400ms, font-weight 400ms;
+		font-weight: 600;
 	}
 }
