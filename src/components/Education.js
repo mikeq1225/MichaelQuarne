@@ -8,7 +8,11 @@ export default (props) => {
 		<div className="container">
 			<div className="education">
 				<div>
-					<h1>PunchCode</h1>
+					<div className="edLogo">
+						<a href="https://punchcode.org/" target="_blank">
+							<img src="/assets/PunchCode.svg" alt="PunchCode logo" />
+						</a>
+					</div>
 					<h3>Certification:</h3>
 					<p>Full-Stack Software Engineer Program</p>
 					<h3>What is PunchCode?</h3>
@@ -27,23 +31,27 @@ export default (props) => {
 						beyond rewarding. I learned so much in 3 months, I can't wait to see
 						what I can learn in the future.
 					</p>
-					<h3>Languages/Technologies Learned:</h3>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>jQuery</li>
-						<li>React</li>
-						<li>Redux</li>
-						<li>Node.js</li>
-						<li>Express</li>
-						<li>MySQL</li>
-						<li>Sass</li>
-						<li>Semantic UI</li>
-					</ul>
+					<div className="edList">
+						<h3>Languages/Technologies Learned:</h3>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>jQuery</li>
+							<li>React</li>
+							<li>Redux</li>
+							<li>Node.js</li>
+							<li>Express</li>
+							<li>MySQL</li>
+							<li>Sass</li>
+							<li>Semantic UI</li>
+						</ul>
+					</div>
 				</div>
 				<div>
-					<h1>Southern New Hampshire University</h1>
+					<div className="edLogo">
+						<img className="snhu" src="/assets/SNHUlogo.png" alt="SNHU logo" />
+					</div>
 					<h3>Degree:</h3>
 					<p>Associate of Science</p>
 					<h3>Program:</h3>
@@ -57,17 +65,19 @@ export default (props) => {
 						It helped me realize that I have a passion for technology and wanted
 						to learn more.
 					</p>
-					<h3>Featured Courses:</h3>
-					<ul>
-						<li>Fundamentals Information Technology</li>
-						<li>Computer Platform Technologies</li>
-						<li>Network and Telecom Management</li>
-						<li>Project Management in Info Tech</li>
-						<li>Cybersecurity and Information Assurance</li>
-						<li>Introduction to Scripting</li>
-						<li>Applied Statistics for STEM</li>
-						<li>Bus Systems Analysis/Design</li>
-					</ul>
+					<div className="edList">
+						<h3>Featured Courses:</h3>
+						<ul>
+							<li>Fundamentals Information Technology</li>
+							<li>Computer Platform Technologies</li>
+							<li>Network and Telecom Management</li>
+							<li>Project Management in Info Tech</li>
+							<li>Cybersecurity and Information Assurance</li>
+							<li>Introduction to Scripting</li>
+							<li>Applied Statistics for STEM</li>
+							<li>Bus Systems Analysis/Design</li>
+						</ul>
+					</div>
 				</div>
 				<Link to={"/Portfolio-Mike-Quarne"}>
 					<button className="homeButton">Home</button>

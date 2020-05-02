@@ -1,3 +1,5 @@
+@use 'src/styles/base.scss' as base;
+
 .projects {
 	padding: 100px 250px 40px 150px;
 	display: grid;
@@ -8,7 +10,7 @@
 		text-decoration: none;
 
 		.individProject {
-			border: 1px solid green;
+			border: 1px solid base.$blueColor;
 			display: grid;
 			grid-template-columns: 200px 1fr;
 			align-items: center;
@@ -16,6 +18,7 @@
 			height: 300px;
 			overflow: hidden;
 			cursor: pointer;
+			background: base.$LgreyColor;
 
 			img {
 				width: 200px;
@@ -23,7 +26,7 @@
 			}
 
 			h3 {
-				color: red;
+				color: base.$blueColor;
 			}
 
 			div {

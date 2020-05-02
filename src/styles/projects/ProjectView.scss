@@ -1,8 +1,9 @@
+@use 'src/styles/base.scss' as base;
+
 .project {
 	padding: 100px 250px 40px 150px;
 
 	.project1 {
-		// border: 1px solid black;
 		display: grid;
 		grid-template-columns: 70px auto 70px;
 
@@ -12,6 +13,7 @@
 
 			svg {
 				font-size: 50px;
+				color: base.$darkBlueColor;
 			}
 		}
 
@@ -33,13 +35,13 @@
 
 				h1 {
 					text-align: center;
-					color: red;
+					color: base.$darkBlueColor;
 				}
 
 				p {
-					// text-align: center;
 					margin: 0;
-					font-size: 1.25em;
+					font-size: 1.5em;
+					color: base.$blueColor;
 				}
 			}
 		}
