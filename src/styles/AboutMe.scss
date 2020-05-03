@@ -1,11 +1,22 @@
 @use 'src/styles/base.scss' as base;
 
 .aboutMe {
-	text-align: center;
+	padding: 100px 250px 40px 150px;
+	display: grid;
+	grid-template-columns: 1fr;
 
-	.infoAboutMe {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		margin: 0 11%;
+	div {
+		display: block;
+		.playerWrapper {
+		}
+
+		.reactPlayer {
+		}
 	}
+
+	// .infoAboutMe {
+	// 	display: grid;
+	// 	grid-template-columns: 1fr 1fr;
+	// 	margin: 0 11%;
+	// }
 }

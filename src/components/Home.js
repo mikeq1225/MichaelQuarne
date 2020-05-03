@@ -6,7 +6,8 @@ export default (props) => {
 		<div className="container">
 			<div className="home">
 				<h1>Michael Quarne</h1>
-				<img src="http://placehold.it/400" alt="Headshot of Mike Quarne"></img>
+				<h2>Full-Stack Developer</h2>
+				<img src="/assets/michaelQ.jpg" alt="Headshot of Mike Quarne"></img>
 			</div>
 		</div>
 	)
