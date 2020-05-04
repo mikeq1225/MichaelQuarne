@@ -4,19 +4,20 @@
 	padding: 100px 250px 40px 150px;
 	display: grid;
 	grid-template-columns: 1fr;
+	width: 100%;
 
 	div {
-		display: block;
-		.playerWrapper {
+		.reactPlayer {
+			float: left;
+			min-height: 425px;
+			min-width: 700px;
+			margin: 0px 25px 25px 0px;
 		}
 
-		.reactPlayer {
+		p {
+			font-size: 1.7em;
+			color: base.$blackColor;
+			margin: 0px 0px 25px 0px;
 		}
 	}
-
-	// .infoAboutMe {
-	// 	display: grid;
-	// 	grid-template-columns: 1fr 1fr;
-	// 	margin: 0 11%;
-	// }
 }
