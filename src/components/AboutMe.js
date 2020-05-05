@@ -8,45 +8,37 @@ export default (props) => {
 		<div className="container">
 			<div className="aboutMe">
 				<div>
-					<div className="playerWrapper">
-						<ReactPlayer
-							className="reactPlayer"
-							url="https://www.youtube.com/watch?v=XxrOahK4cDE&t=2s"
-							controls={true}
-						/>
-					</div>
+					<ReactPlayer
+						className="reactPlayer"
+						url="https://www.youtube.com/watch?v=XxrOahK4cDE&t=2s"
+						controls={true}
+					/>
 					<p>
-						Michael Quarne is a full-stack web developer from Las Vegas. A
-						recent graduate from PunchCode’s three month long Full-Stack
-						Engineer bootcamp. Skilled at building web applications from the
-						ground up – from concept, to design, to writing well-designed,
-						testable and efficient code while focusing on UX/UI. The completion
-						of Michael’s capstone project, a vacation planning web application
-						called Jurn(ease), showcases how much he has learned in three
-						months.
+						I am a full-stack web developer from Las Vegas and a recent graduate
+						from PunchCode’s three month long Full-Stack Software Engineer
+						bootcamp. Skilled at building web applications from the ground up –
+						from concept, to design, to writing well-designed, testable and
+						efficient code while focusing on UX/UI. The completion of my
+						capstone project, a vacation planning web application called
+						Jurn(ease), showcases how much I have learned in the past three
+						months. I am going to continue to learn new languages and techniques
+						to improve my overall coding skills.
 					</p>
 					<p>
-						Michael’s coding philosophy starts with strategic planning,
-						designing, and developing applications to help reach desired
-						objectives and goals. He surrounds himself with technical people,
-						activities, hobbies, and endeavors with a drive to keep learning
-						through experiences.
+						My coding philosophy starts with strategic planning, designing, and
+						developing applications to help reach desired objectives and goals.
+						I try to surround myself with technical people, activities, hobbies,
+						and endeavors that push me to keep learning through experiences.
 					</p>
 					<p>
-						Originally from Milwaukee, WI, Michael and his wife relocated to Las
-						Vegas after their children joined the military and informed them
-						that they would not be moving back to Wisconsin. Michael and his
-						wife decided it was a good time to move somewhere warm and exciting
-						to begin a new chapter in their lives.
+						Originally from Milwaukee, WI, my wife and I relocated to Las Vegas
+						a few years ago after our children joined the military and informed
+						us that they would not be moving back to Wisconsin. We decided it
+						was a good time to move somewhere warm to begin an exciting a new
+						chapter in our lives. Las Vegas has not let us down. It has so much
+						to offer and we have meet some amazing new friends.
 					</p>
 				</div>
-				{/* <div className="infoAboutMe">
-					<div>
-						<h3>Free Time</h3>
-						<p>hobbies</p>
-						<p>interests</p>
-					</div>
-				</div> */}
 				<Link to={"/Portfolio-Mike-Quarne"}>
 					<button className="homeButton">Home</button>
 				</Link>

@@ -14,7 +14,7 @@ export default (props) => {
 			<Link to={"/Portfolio-Mike-Quarne/Education"}>
 				<button>Education</button>
 			</Link>
-			<Link to={"/Portfolio-Mike-Quarne/Portfolio"}>
+			<Link to={"/Portfolio-Mike-Quarne/Resume"}>
 				<button>Resume</button>
 			</Link>
 		</div>
