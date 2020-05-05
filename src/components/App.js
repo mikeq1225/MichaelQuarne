@@ -7,6 +7,7 @@ import ProjectView from "./projects/ProjectView"
 import Education from "./Education"
 import SocialBar from "./SocialBar"
 import NavBar from "./NavBar"
+import Resume from "./Resume"
 
 export default (props) => {
 	return (
@@ -16,6 +17,7 @@ export default (props) => {
 				<Route path="/Portfolio-Mike-Quarne" component={SocialBar}></Route>
 				<Route path="/Portfolio-Mike-Quarne" component={NavBar}></Route>
 				<Route path="/Portfolio-Mike-Quarne/About" component={AboutMe}></Route>
+				<Route path="/Portfolio-Mike-Quarne/Resume" component={Resume}></Route>
 				<Route
 					exact
 					path="/Portfolio-Mike-Quarne/Projects"
