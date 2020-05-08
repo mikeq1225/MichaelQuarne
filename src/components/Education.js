@@ -9,7 +9,11 @@ export default (props) => {
 			<div className="education">
 				<div>
 					<div className="edLogo">
-						<a href="https://punchcode.org/" target="_blank">
+						<a
+							href="https://punchcode.org/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src="/assets/PunchCode.svg" alt="PunchCode logo" />
 						</a>
 					</div>

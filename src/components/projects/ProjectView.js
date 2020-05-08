@@ -28,8 +28,10 @@ export default (props) => {
 					>
 						<FaAngleDoubleLeft />
 					</Link>
-					<Link to={"/Portfolio-Mike-Quarne/Projects"}>
-						<img src={project.image} alt={project.title + " replica"} />
+					<div>
+						<Link to={"/Portfolio-Mike-Quarne/Projects"}>
+							<img src={project.image} alt={project.title + " replica"} />
+						</Link>
 						<div>
 							<h1>{project.title}</h1>
 							<p>Description:</p>
@@ -40,8 +42,12 @@ export default (props) => {
 							<h2>{project.lessons}</h2>
 							<p>Languages/Technologies Used:</p>
 							<h2>{project.tech}</h2>
+							<p>Link:</p>
+							<a href={project.link} target="_blank" rel="noopener noreferrer">
+								<h2>{project.title}</h2>
+							</a>
 						</div>
-					</Link>
+					</div>
 					<Link
 						className="arrow"
 						to={`/Portfolio-Mike-Quarne/Projects/${right}`}

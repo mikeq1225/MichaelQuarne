@@ -10,23 +10,31 @@ import {
 export default (props) => {
 	return (
 		<div className="social">
-			<a href="https://github.com/mikeq1225" target="_blank" rel="noopener">
+			<a
+				href="https://github.com/mikeq1225"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<FaGithub />
 			</a>
 			<a
 				href="https://www.linkedin.com/in/michaelquarne/"
 				target="_blank"
-				rel="noopener"
+				rel="noopener noreferrer"
 			>
 				<FaLinkedinIn />
 			</a>
-			<a href="https://www.facebook.com/mquarne" target="_blank" rel="noopener">
+			<a
+				href="https://www.facebook.com/mquarne"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<FaFacebookF />
 			</a>
 			<a
 				href="https://www.instagram.com/trulyqsstyle/"
 				target="_blank"
-				rel="noopener"
+				rel="noopener noreferrer"
 			>
 				<FaInstagram />
 			</a>
