@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { useProjects } from "../../hooks"
 import "../../styles/projects/ProjectView.scss"
 import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa"
+// react-animation for transitions
 import { AnimateOnChange, HideUntilLoaded } from "react-animation"
 
 export default (props) => {
@@ -11,6 +12,7 @@ export default (props) => {
 	const { project, fetchProject, fetchLinks } = useProjects()
 	const id = props.match.params.id
 
+	// used to scroll left and right through projects and update info
 	useEffect(() => {
 		fetchProject(id)
 		fetchLinks(id).then((data) => {
@@ -29,6 +31,7 @@ export default (props) => {
 					>
 						<FaAngleDoubleLeft />
 					</Link>
+					{/* animates changes when children change */}
 					<AnimateOnChange durationOut={700}>
 						<div>
 							<Link to={"/Portfolio-Mike-Quarne/Projects"}>
