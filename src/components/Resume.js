@@ -6,7 +6,10 @@ export default (props) => {
 	return (
 		<div className="container">
 			<div className="resume">
-				<iframe src="./assets/MichaelQuarneResume.pdf"></iframe>
+				<iframe
+					src="./assets/MichaelQuarneResume.pdf"
+					title="pdf resume"
+				></iframe>
 				<Link to={"/Portfolio-Mike-Quarne"}>
 					<button className="homeButton">Home</button>
 				</Link>

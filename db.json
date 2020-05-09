@@ -8,7 +8,7 @@
 			"lessons": "I learned how to use CSS Grid and Flexbox quite well. Also learned how to use pseudo elements.",
 			"tech": "HTML, CSS",
 			"image": "/assets/Ska8er_Site.png",
-			"link": ""
+			"link": "#0"
 		},
 		{
 			"id": 2,
@@ -18,17 +18,17 @@
 			"lessons": "This was our first step into JavaScript. I also learned how to use jQuery to create a template to map through and display the data.",
 			"tech": "HTML, CSS, JavaScript, jQuery",
 			"image": "/assets/RecreateEtsy.png",
-			"link": ""
+			"link": "#0"
 		},
 		{
 			"id": 3,
-			"title": "Group-Project",
+			"title": "Group-Project-4",
 			"description": "A group assingment where we utilized Github for version control and collaboration to make a website for a fictional restaurant. We were given a JSON file with menu items.",
 			"problem": "How do we work on the same project without causing problems and still creating a cohesive looking website.",
 			"lessons": "I learned how to use Github's branches to ensure my team could work on the same website but in different sections to avoid conflicts.",
 			"tech": "HTML, CSS, JavaScript, jQuery, GitHub",
 			"image": "/assets/GroupProject.png",
-			"link": ""
+			"link": "#0"
 		},
 		{
 			"id": 4,
@@ -38,7 +38,7 @@
 			"lessons": "I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user. I also learned how to use Redux to monitor the state of items in the cart as well as some new CSS properties.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js",
 			"image": "/assets/ReactShoppingCart.png",
-			"link": ""
+			"link": "#0"
 		},
 		{
 			"id": 5,
@@ -48,7 +48,7 @@
 			"lessons": "I learned how to construct useful and concise MySQL queries to retrieve date from and add data to the database.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js, Express, MySQL",
 			"image": "/assets/Ska8er_Site.png",
-			"link": ""
+			"link": "#0"
 		},
 		{
 			"id": 6,
@@ -58,7 +58,7 @@
 			"lessons": "I learned how to plan and execute a large project, how to take all the languages and tools from class and apply them to one big, how to use AWS as a remote MySQL database for our project, and I learned how to accomplish all of this while working remotely.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js, Express, MySQL, AWS",
 			"image": "/assets/Ska8er_Site.png",
-			"link": ""
+			"link": "https://demoday.punchcode.org/project/1"
 		}
 	]
 }
