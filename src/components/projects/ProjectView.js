@@ -32,7 +32,7 @@ export default (props) => {
 						<FaAngleDoubleLeft />
 					</Link>
 					{/* animates changes when children change */}
-					<AnimateOnChange durationOut={700}>
+					<AnimateOnChange durationOut={600}>
 						<div>
 							<Link to={"/Portfolio-Mike-Quarne/Projects"}>
 								<HideUntilLoaded imageToLoad={project.image} animation="fade">
