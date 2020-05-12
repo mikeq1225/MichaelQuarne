@@ -8,7 +8,7 @@
 			"lessons": "I learned how to use CSS Grid and Flexbox quite well. Also learned how to use pseudo elements.",
 			"tech": "HTML, CSS",
 			"image": "/assets/Ska8er_Site.png",
-			"link": "#0"
+			"link": "https://mikeq1225.github.io/Sk8er-Site/"
 		},
 		{
 			"id": 2,
@@ -18,17 +18,17 @@
 			"lessons": "This was our first step into JavaScript. I also learned how to use jQuery to create a template to map through and display the data.",
 			"tech": "HTML, CSS, JavaScript, jQuery",
 			"image": "/assets/RecreateEtsy.png",
-			"link": "#0"
+			"link": "https://mikeq1225.github.io/Create-Etsy-Search-Page/"
 		},
 		{
 			"id": 3,
-			"title": "Group-Project-4",
+			"title": "Group-Project",
 			"description": "A group assingment where we utilized Github for version control and collaboration to make a website for a fictional restaurant. We were given a JSON file with menu items.",
 			"problem": "How do we work on the same project without causing problems and still creating a cohesive looking website.",
 			"lessons": "I learned how to use Github's branches to ensure my team could work on the same website but in different sections to avoid conflicts.",
 			"tech": "HTML, CSS, JavaScript, jQuery, GitHub",
 			"image": "/assets/GroupProject.png",
-			"link": "#0"
+			"link": "https://mikeq1225.github.io/Group-Project/"
 		},
 		{
 			"id": 4,
@@ -38,7 +38,7 @@
 			"lessons": "I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user. I also learned how to use Redux to monitor the state of items in the cart as well as some new CSS properties.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js",
 			"image": "/assets/ReactShoppingCart.png",
-			"link": "#0"
+			"link": "https://mikeq1225.github.io/react-shopping-cart/"
 		},
 		{
 			"id": 5,
