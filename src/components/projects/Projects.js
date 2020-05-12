@@ -16,7 +16,7 @@ export default (props) => {
 				{projects.map((project) => (
 					<Link
 						key={"project" + project.id}
-						to={"/Portfolio-Mike-Quarne/Projects/" + project.id}
+						to={"/MichaelQuarne/Projects/" + project.id}
 					>
 						<div className="individProject">
 							<img src={project.image} alt={project.title + " replica"} />
@@ -25,7 +25,7 @@ export default (props) => {
 					</Link>
 				))}
 
-				<Link to={"/Portfolio-Mike-Quarne"}>
+				<Link to={"/MichaelQuarne"}>
 					<button className="homeButton">Home</button>
 				</Link>
 			</div>

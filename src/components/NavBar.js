@@ -5,16 +5,16 @@ import { Link } from "react-router-dom"
 export default (props) => {
 	return (
 		<div className="navMenu">
-			<Link to={"/Portfolio-Mike-Quarne/About"}>
+			<Link to={"/MichaelQuarne/About"}>
 				<button>About Me</button>
 			</Link>
-			<Link to={"/Portfolio-Mike-Quarne/Projects"}>
+			<Link to={"/MichaelQuarne/Projects"}>
 				<button>Projects</button>
 			</Link>
-			<Link to={"/Portfolio-Mike-Quarne/Education"}>
+			<Link to={"/MichaelQuarne/Education"}>
 				<button>Education</button>
 			</Link>
-			<Link to={"/Portfolio-Mike-Quarne/Resume"}>
+			<Link to={"/MichaelQuarne/Resume"}>
 				<button>Resume</button>
 			</Link>
 		</div>

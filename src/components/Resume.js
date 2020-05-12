@@ -10,7 +10,7 @@ export default (props) => {
 					src="./assets/MichaelQuarneResume.pdf"
 					title="pdf resume"
 				></iframe>
-				<Link to={"/Portfolio-Mike-Quarne"}>
+				<Link to={"/MichaelQuarne"}>
 					<button className="homeButton">Home</button>
 				</Link>
 			</div>

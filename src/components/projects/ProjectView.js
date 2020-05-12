@@ -25,16 +25,13 @@ export default (props) => {
 		<div className="container">
 			<div className="project">
 				<div className="project1">
-					<Link
-						className="arrow"
-						to={`/Portfolio-Mike-Quarne/Projects/${left}`}
-					>
+					<Link className="arrow" to={`/MichaelQuarne/Projects/${left}`}>
 						<FaAngleDoubleLeft />
 					</Link>
 					{/* animates changes when children change */}
 					<AnimateOnChange durationOut={600}>
 						<div>
-							<Link to={"/Portfolio-Mike-Quarne/Projects"}>
+							<Link to={"/MichaelQuarne/Projects"}>
 								<HideUntilLoaded imageToLoad={project.image} animation="fade">
 									>
 									<img src={project.image} alt={project.title + " replica"} />
@@ -61,14 +58,11 @@ export default (props) => {
 							</div>
 						</div>
 					</AnimateOnChange>
-					<Link
-						className="arrow"
-						to={`/Portfolio-Mike-Quarne/Projects/${right}`}
-					>
+					<Link className="arrow" to={`/MichaelQuarne/Projects/${right}`}>
 						<FaAngleDoubleRight />
 					</Link>
 				</div>
-				<Link to={"/Portfolio-Mike-Quarne"}>
+				<Link to={"/MichaelQuarne"}>
 					<button className="homeButton">Home</button>
 				</Link>
 			</div>

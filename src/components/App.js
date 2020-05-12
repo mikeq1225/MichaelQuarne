@@ -13,22 +13,19 @@ export default (props) => {
 	return (
 		<Router>
 			<div>
-				<Route exact path="/Portfolio-Mike-Quarne" component={Home}></Route>
-				<Route path="/Portfolio-Mike-Quarne" component={SocialBar}></Route>
-				<Route path="/Portfolio-Mike-Quarne" component={NavBar}></Route>
-				<Route path="/Portfolio-Mike-Quarne/About" component={AboutMe}></Route>
-				<Route path="/Portfolio-Mike-Quarne/Resume" component={Resume}></Route>
+				<Route exact path="/MichaelQuarne" component={Home}></Route>
+				<Route path="/MichaelQuarne" component={SocialBar}></Route>
+				<Route path="/MichaelQuarne" component={NavBar}></Route>
+				<Route path="/MichaelQuarne/About" component={AboutMe}></Route>
+				<Route path="/MichaelQuarne/Resume" component={Resume}></Route>
 				<Route
 					exact
-					path="/Portfolio-Mike-Quarne/Projects"
+					path="/MichaelQuarne/Projects"
 					component={Projects}
 				></Route>
+				<Route path="/MichaelQuarne/Education" component={Education}></Route>
 				<Route
-					path="/Portfolio-Mike-Quarne/Education"
-					component={Education}
-				></Route>
-				<Route
-					path="/Portfolio-Mike-Quarne/Projects/:id"
+					path="/MichaelQuarne/Projects/:id"
 					component={ProjectView}
 				></Route>
 			</div>

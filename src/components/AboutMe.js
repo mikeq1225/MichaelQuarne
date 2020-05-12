@@ -39,7 +39,7 @@ export default (props) => {
 						to offer and we have meet some amazing new friends.
 					</p>
 				</div>
-				<Link to={"/Portfolio-Mike-Quarne"}>
+				<Link to={"/MichaelQuarne"}>
 					<button className="homeButton">Home</button>
 				</Link>
 			</div>
