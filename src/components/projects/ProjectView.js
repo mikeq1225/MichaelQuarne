@@ -33,7 +33,6 @@ export default (props) => {
 						<div>
 							<Link to={"/MichaelQuarne/Projects"}>
 								<HideUntilLoaded imageToLoad={project.image} animation="fade">
-									>
 									<img src={project.image} alt={project.title + " replica"} />
 								</HideUntilLoaded>
 							</Link>
