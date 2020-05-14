@@ -47,7 +47,7 @@
 			"problem": "Using React and Redux to keep track of several different pieces of state on differenet components while integrating a MySQL database.",
 			"lessons": "I learned how to construct useful and concise MySQL queries to retrieve date from and add data to the database.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js, Express, MySQL",
-			"image": "/assets/Ska8er_Site.png",
+			"image": "/assets/ryan_listScreenshot.png",
 			"link": "#0"
 		},
 		{
