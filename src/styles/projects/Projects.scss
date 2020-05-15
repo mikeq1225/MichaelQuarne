@@ -12,17 +12,17 @@
 		.individProject {
 			border: 1px solid base.$blueColor;
 			display: grid;
-			grid-template-columns: 200px 1fr;
+			grid-template-columns: 150px 1fr;
 			align-items: center;
 			justify-items: center;
-			height: 300px;
+			height: 200px;
 			overflow: hidden;
 			cursor: pointer;
 			background: base.$LgreyColor;
 
 			img {
-				width: 200px;
-				height: 300px;
+				width: 150px;
+				height: 200px;
 			}
 
 			h3 {
