@@ -8,6 +8,7 @@
 			"lessons": "I learned how to use CSS Grid and Flexbox quite well. Also learned how to use pseudo elements.",
 			"tech": "HTML, CSS",
 			"image": "/assets/Ska8er_Site.png",
+			"image2": "/assets/Ska8er_Site.png",
 			"link": "https://mikeq1225.github.io/Sk8er-Site/"
 		},
 		{
@@ -18,6 +19,7 @@
 			"lessons": "This was our first step into JavaScript. I also learned how to use jQuery to create a template to map through and display the data.",
 			"tech": "HTML, CSS, JavaScript, jQuery",
 			"image": "/assets/RecreateEtsy.png",
+			"image2": "/assets/RecreateEtsy.png",
 			"link": "https://mikeq1225.github.io/Create-Etsy-Search-Page/"
 		},
 		{
@@ -28,6 +30,7 @@
 			"lessons": "I learned how to use Github's branches to ensure my team could work on the same website but in different sections to avoid conflicts.",
 			"tech": "HTML, CSS, JavaScript, jQuery, GitHub",
 			"image": "/assets/GroupProject.png",
+			"image2": "/assets/GroupProject.png",
 			"link": "https://mikeq1225.github.io/Group-Project/"
 		},
 		{
@@ -37,8 +40,9 @@
 			"problem": "How to keep track of what the user is doing on each turn and how that turn effects the entire game.",
 			"lessons": "I learned how to use jQuery to manipulate the DOM based on the winning or losing as well as using CSS animations for the card flips.",
 			"tech": "HTML, CSS, JavaScript, jQuery",
-			"image": "/assets/Ska8er_Site.png",
-			"link": "#0"
+			"image": "/assets/memory1.png",
+			"image2": "/assets/memory2.png",
+			"link": "https://mikeq1225.github.io/Memory/"
 		},
 		{
 			"id": 5,
@@ -48,6 +52,7 @@
 			"lessons": "I learned how to use React Router to create the routes for each component and make it possible to switch between those routes without reloading the page.",
 			"tech": "HTML, CSS, JavaScript, React, React Router, JSON-Server",
 			"image": "/assets/Ska8er_Site.png",
+			"image2": "/assets/Ska8er_Site.png",
 			"link": "#0"
 		},
 		{
@@ -58,6 +63,7 @@
 			"lessons": "I learned how to effectively use components to make my code more manageable as well as creating a seamless experience for the user. I also learned how to use Redux to monitor the state of items in the cart as well as some new CSS properties.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js, JSON-Server",
 			"image": "/assets/ReactShoppingCart.png",
+			"image2": "/assets/ReactShoppingCart.png",
 			"link": "https://mikeq1225.github.io/react-shopping-cart/"
 		},
 		{
@@ -68,6 +74,7 @@
 			"lessons": "I learned how to construct useful and concise MySQL queries to retrieve date from and add data to the database.",
 			"tech": "HTML, CSS, JavaScript, React, Redux, Node.js, Express, MySQL",
 			"image": "/assets/ryan_listScreenshot.png",
+			"image2": "/assets/ryan_listScreenshot.png",
 			"link": "#0"
 		},
 		{
@@ -78,6 +85,7 @@
 			"lessons": "I learned how to use GitHub's Projects tab to create tickets, assign them, and track the progress of the project.  I also learned how to develop an MVP (minimum viable project) as well as future features for the project.",
 			"tech": "HTML, CSS, JavaScript, Ract, Redux, Node.js, Express, MySQL",
 			"image": "/assets/Ska8er_Site.png",
+			"image2": "/assets/Ska8er_Site.png",
 			"link": "#0"
 		},
 		{
@@ -88,6 +96,7 @@
 			"lessons": "I learned how to plan and execute a large project, how to take all the languages and tools from class and apply them to one big, how to use AWS as a remote MySQL database for our project, and I learned how to accomplish all of this while working remotely.",
 			"tech": "HTML, CSS, Sass, Semantic UI, JavaScript, React, Redux, Node.js, Express, MySQL, AWS",
 			"image": "/assets/JurnEaseScreenShot.png",
+			"image2": "/assets/JurnEaseScreenShot.png",
 			"link": "https://demoday.punchcode.org/project/1"
 		}
 	]
