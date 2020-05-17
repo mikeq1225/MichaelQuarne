@@ -28,7 +28,7 @@ export default (props) => {
 					<h3>Why I Did It:</h3>
 					<p>
 						I realized I had a passion for coding and solving problems while I
-						was pursuing mt Assocaite's Degree, but I didn't have the right
+						was pursuing my Assocaite's Degree, but I didn't have the right
 						knowledge to land a job. I decided to enroll at PunchCode because it
 						was a fast way to gain knowledge and experience. Although it was one
 						of the toughest things I ever attempted, completing the program was
@@ -46,6 +46,7 @@ export default (props) => {
 							<li>Redux</li>
 							<li>Node.js</li>
 							<li>Express</li>
+							<li>Socket.IO</li>
 							<li>MySQL</li>
 							<li>Sass</li>
 							<li>Semantic UI</li>
