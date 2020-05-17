@@ -13,8 +13,6 @@
 			border: 1px solid base.$blueColor;
 			display: grid;
 			grid-template-columns: 150px 1fr;
-			align-items: center;
-			justify-items: center;
 			height: 200px;
 			overflow: hidden;
 			cursor: pointer;
@@ -25,14 +23,31 @@
 				height: 200px;
 			}
 
-			h3 {
-				color: base.$blueColor;
-			}
-
 			div {
-				border: none;
+				padding: 10px;
 				display: flex;
 				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+
+				div {
+					h3 {
+						font-size: 1.75em;
+						text-align: center;
+						color: base.$darkBlueColor;
+						margin: 0;
+					}
+
+					p {
+						margin: 0;
+						color: base.$blueColor;
+					}
+				}
+
+				p {
+					margin: 0;
+					color: base.$blueColor;
+				}
 			}
 		}
 	}

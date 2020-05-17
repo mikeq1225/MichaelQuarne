@@ -20,7 +20,13 @@ export default (props) => {
 					>
 						<div className="individProject">
 							<img src={project.image} alt={project.title + " replica"} />
-							<h3>{project.title}</h3>
+							<div>
+								<div>
+									<p>{project.subtitle}</p>
+									<h3>{project.title}</h3>
+								</div>
+								<p>{project.brief}</p>
+							</div>
 						</div>
 					</Link>
 				))}
