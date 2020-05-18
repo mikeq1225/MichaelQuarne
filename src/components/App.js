@@ -24,6 +24,7 @@ export default (props) => {
 					component={Projects}
 				></Route>
 				<Route path="/MichaelQuarne/Education" component={Education}></Route>
+				{/* Try lazy load for project view */}
 				<Route
 					path="/MichaelQuarne/Projects/:id"
 					component={ProjectView}
