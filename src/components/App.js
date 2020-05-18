@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
 import Home from "./Home"
 import AboutMe from "./AboutMe"
 import Projects from "./projects/Projects"
@@ -13,6 +13,7 @@ export default (props) => {
 	return (
 		<Router>
 			<div>
+				<Route exact path="/" render={() => <Redirect to="/MichaelQuarne" />} />
 				<Route exact path="/MichaelQuarne" component={Home}></Route>
 				<Route path="/MichaelQuarne" component={SocialBar}></Route>
 				<Route path="/MichaelQuarne" component={NavBar}></Route>
