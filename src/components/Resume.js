@@ -7,10 +7,10 @@ export default (props) => {
 		<div className="container">
 			<div className="resume">
 				<iframe
-					src="./assets/MichaelQuarneResume.pdf"
+					src="/assets/MichaelQuarneResume.pdf"
 					title="pdf resume"
 				></iframe>
-				<Link to={"/MichaelQuarne"}>
+				<Link to={"/"}>
 					<button className="homeButton">Home</button>
 				</Link>
 			</div>

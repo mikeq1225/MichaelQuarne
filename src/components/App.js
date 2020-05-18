@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from "./Home"
 import AboutMe from "./AboutMe"
 import Projects from "./projects/Projects"
@@ -13,23 +13,15 @@ export default (props) => {
 	return (
 		<Router>
 			<div>
-				<Route exact path="/" render={() => <Redirect to="/MichaelQuarne" />} />
-				<Route exact path="/MichaelQuarne" component={Home}></Route>
-				<Route path="/MichaelQuarne" component={SocialBar}></Route>
-				<Route path="/MichaelQuarne" component={NavBar}></Route>
-				<Route path="/MichaelQuarne/About" component={AboutMe}></Route>
-				<Route path="/MichaelQuarne/Resume" component={Resume}></Route>
-				<Route
-					exact
-					path="/MichaelQuarne/Projects"
-					component={Projects}
-				></Route>
-				<Route path="/MichaelQuarne/Education" component={Education}></Route>
+				<Route exact path="/" component={Home}></Route>
+				<Route path="/" component={SocialBar}></Route>
+				<Route path="/" component={NavBar}></Route>
+				<Route path="/About" component={AboutMe}></Route>
+				<Route path="/Resume" component={Resume}></Route>
+				<Route exact path="/Projects" component={Projects}></Route>
+				<Route path="/Education" component={Education}></Route>
 				{/* Try lazy load for project view */}
-				<Route
-					path="/MichaelQuarne/Projects/:id"
-					component={ProjectView}
-				></Route>
+				<Route path="/Projects/:id" component={ProjectView}></Route>
 			</div>
 		</Router>
 	)
