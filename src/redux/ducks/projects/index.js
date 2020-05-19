@@ -22,12 +22,15 @@ export default (state = initialState, action) => {
 
 function getProjects() {
 	return (dispatch) => {
-		axios.get("/projects").then((resp) => {
-			dispatch({
-				type: GET_PROJECTS,
-				payload: resp.data,
+		axios
+			.get("/projects")
+			// .get("https://api.jsonbin.io/b/5ec42bcfe91d1e45d10d472e")
+			.then((resp) => {
+				dispatch({
+					type: GET_PROJECTS,
+					payload: resp.data,
+				})
 			})
-		})
 	}
 }
 
