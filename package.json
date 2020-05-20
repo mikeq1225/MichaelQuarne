@@ -11,7 +11,6 @@
 		"axios": "^0.19.2",
 		"concurrently": "^5.2.0",
 		"gh-pages": "^2.2.0",
-		"json-server": "^0.16.1",
 		"react": "^16.13.1",
 		"react-animation": "^1.2.2",
 		"react-dom": "^16.13.1",
@@ -53,6 +52,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"json-server": "^0.16.1",
 		"sass": "^1.26.5"
 	}
 }
