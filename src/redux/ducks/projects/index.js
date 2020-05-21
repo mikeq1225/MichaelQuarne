@@ -37,7 +37,6 @@ function getProjects() {
 function getProject(id) {
 	return (dispatch) => {
 		axios.get(`/projects/${id}`).then((resp) => {
-			console.log(resp.data)
 			dispatch({
 				type: GET_PROJECT,
 				payload: resp.data,
