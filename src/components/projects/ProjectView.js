@@ -31,7 +31,7 @@ export default (props) => {
 					{/* animates changes when children change */}
 					<AnimateOnChange durationOut={600}>
 						<div>
-							<Link to={"/Projects"}>
+							<Link to={"/"}>
 								<HideUntilLoaded imageToLoad={project.image2} animation="fade">
 									<img src={project.image2} alt={project.title + " replica"} />
 								</HideUntilLoaded>

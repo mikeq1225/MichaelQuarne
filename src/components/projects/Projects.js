@@ -28,9 +28,9 @@ export default (props) => {
 					</Link>
 				))}
 
-				<Link to={"/"}>
+				{/* <Link to={"/"}>
 					<button className="homeButton">Home</button>
-				</Link>
+				</Link> */}
 			</div>
 		</div>
 	)

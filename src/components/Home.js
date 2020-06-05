@@ -4,7 +4,7 @@ import "../styles/Home.scss"
 export default (props) => {
 	return (
 		<div className="container">
-			<div className="home">
+			<div className="home" id="homeView">
 				<h1>Michael Quarne</h1>
 				<h2>Full-Stack Developer</h2>
 				<img src="/assets/michaelQ.jpg" alt="Headshot of Mike Quarne"></img>
