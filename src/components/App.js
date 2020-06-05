@@ -16,10 +16,10 @@ export default (props) => {
 				<Route exact path="/" component={Home}></Route>
 				<Route path="/" component={SocialBar}></Route>
 				<Route path="/" component={NavBar}></Route>
-				<Route path="/About" component={AboutMe}></Route>
-				<Route path="/Resume" component={Resume}></Route>
-				<Route exact path="/Projects" component={Projects}></Route>
-				<Route path="/Education" component={Education}></Route>
+				<Route exact path="/" component={AboutMe}></Route>
+				<Route exact path="/" component={Education}></Route>
+				<Route exact path="/" component={Projects}></Route>
+				<Route exact path="/" component={Resume}></Route>
 				{/* Try lazy load for project view */}
 				<Route path="/Projects/:id" component={ProjectView}></Route>
 			</div>

@@ -84,9 +84,9 @@ export default (props) => {
 						</ul>
 					</div>
 				</div>
-				<Link to={"/"}>
+				{/* <Link to={"/"}>
 					<button className="homeButton">Home</button>
-				</Link>
+				</Link> */}
 			</div>
 		</div>
 	)
