@@ -20,7 +20,6 @@ export default (props) => {
 				<Route exact path="/" component={Education}></Route>
 				<Route exact path="/" component={Projects}></Route>
 				<Route exact path="/" component={Resume}></Route>
-				{/* Try lazy load for project view */}
 				<Route path="/Projects/:id" component={ProjectView}></Route>
 			</div>
 		</Router>

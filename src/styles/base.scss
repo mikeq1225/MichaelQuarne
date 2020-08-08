@@ -24,7 +24,7 @@ $LgreyColor: #d3d3d3;
 
 .container {
 	// background: $silverColor;
-	background-image: url(/assets/SilverBkgrd1.jpg);
+	background-image: url(/assets/SilverBkgrd2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -33,16 +33,9 @@ $LgreyColor: #d3d3d3;
 }
 
 .homeButton {
-	// position: fixed;
-	// bottom: 0;
-	// left: 46%;
 	font-size: 2em;
 	border: none;
 	cursor: pointer;
 	color: $blueColor;
 	background: transparent;
 }
-
-// .homeButton:hover {
-// 	background-color: $whiteColor;
-// }
